@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Components.Web">
+      <HintPath>..\..\..\..\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.1.0\ref\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
